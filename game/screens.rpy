@@ -723,6 +723,25 @@ style slot_button_text:
     properties gui.text_properties("slot_button")
 
 
+##################################
+## pronouns
+## gay shit
+screen pronounoptions():
+
+    tag menu
+
+    use game_menu(_("Preferences"), scroll="viewport"):
+        vbox:
+            style_prefix "check"
+            label _("Pronoun Options")
+            if not main_menu:
+                textbutton _("Select Pronouns") action Call("pronounselection") # This shows the pronoun selection menu if the game is currently being played.
+            textbutton _("Display Pronouns") action ToggleVariable("persistent.displaypronouns") # Remove this button if you do not want the game to display pronouns in-game.
+
+            textbutton ("") # Adds space between pronoun options and return button.
+
+            textbutton _("Return") action ShowMenu("preferences") # Returns user to the Preferences menu. Remove if unnecessary.
+
 ## Preferences screen ##########################################################
 ##
 ## The preferences screen allows the player to configure the game to better
