@@ -1,6 +1,16 @@
 # hahayeahitotallyknowthenameofthevn
 malevolent help me
 
+# a title
+idk what to add more but we'll have to fill this up later
+
+
+# Production
+This product and it's content and thus the software used to create (Ren'py) it is affilated and licensed under the GNU Lesser General Public License.
+This restriction also applies for the following ressources used:
+- Wattson's Ren'py Kinetic Tag Text
+- npckc's Pronouns tools
+
 
 baby baby baby baby oooooooooooooooooooooo
 
