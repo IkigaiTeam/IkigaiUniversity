@@ -23,7 +23,8 @@ label start:
     show eileen happy
 
 
-    call pronounselection 
+    # call pronounselection 
+    # disabled because malevolent is homophobic/j
     # charge ts somewhere else if we need more pronouns choice
     # btw, they them is default
     # there's also a ShowMenu("pronounselection") version for gui in the script
@@ -32,9 +33,9 @@ label start:
 
     e "{bt=10}Helloooooooo!~{/bt}"
 
-    e "[they!t!c] with [pp!t] ??? holy shit woke you're alone on this one."
+    # e "[they!t!c] with [pp!t] ??? holy shit woke you're alone on this one."
 
-    e "Also, it would be nice to make a folder and organize the rest of the shit with the scripts so we'll do that later, k?"
+    e "it would be nice to make a folder and organize the rest of the shit with the scripts so we'll do that later, k?"
 
     e "prob some shit like, importing the scene in script to tell it to go fuck itself with another file in another folder instead of script.rpy..."
 
