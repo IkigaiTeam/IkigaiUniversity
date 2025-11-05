@@ -366,6 +366,8 @@ screen main_menu():
     use navigation
 
     add "gui/logo.png" xpos 50 ypos -10
+
+
     if gui.show_name:
 
         vbox:
@@ -376,6 +378,7 @@ screen main_menu():
 
             text "[config.version]":
                 style "main_menu_version"
+    add "gui/thelinesssssss.png" xpos 0 ypos 0 #lower on top of everyting that's before
 
 
 style main_menu_frame is empty
