@@ -36,21 +36,28 @@ label test:
     Andee "Look, mysterious voice or whatever, are you gonna keep being cryptic or are you gonna tell me what this is about already?"
     "Suddenly, your head pounds."
     Andee "A-ARGH-..."
+    "the figure waits silently"
+
     Andee "T-The last thing i remember was... Being on the flight to Hibana..."
+    "Hibana...."
     Andee "...Dang it, i'm gonna miss my first day."
+
+    "The figure jots down something again"
     whotf2 "Do you trust easily?"
     Andee "I-..."
     "You stay silent for a moment, thinking of the options."
     Andee "Maybe... sometimes-...?"
+
+    "..."
     whotf2 "Would you say you forgive things easily?"
     "Yes you do. Too easily."
     Andee "...Yeah."
     whotf2 "Do you belive your friends would describe you as loyal?"
     "..."
-    Andee "I'd- hope so?" # would be nice to make a tiny pause at the "id"
+    Andee "I'd- hope so?" # would be nice to make a tiny pause at the "id" (yeah lets do that)
     "The room goes completely silent."
     whotf2 "Interesting. Very, interesting."
     whotf2 "Do you belive you deserve to be here?"
-    Andee "Here? D-deserve to be where?.. Look, this is really freaking me out. Where the heck am I- what is this fo-..."
-    # beeping sounds pls + music stops
+    Andee "D-deserve to be where?.. Look, this is really freaking me out. Where the heck am I- what is this fo-..."
+    # beeping sounds pls + music stops (I do plan to make beeping files lol I jus dont know how, ima figure it out tho😭)
     # should prob makes another file for the rest
