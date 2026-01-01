@@ -21,6 +21,7 @@ label start:
     # directory.
 
     show eileen happy
+    show Andreas ph
 
 
     # call pronounselection 
@@ -31,6 +32,7 @@ label start:
 
     # These display lines of dialogue.
 
+    Andreas "wow"
     e "{bt=10}Helloooooooo!~{/bt}"
 
     # e "[they!t!c] with [pp!t] ??? holy shit woke you're alone on this one."
@@ -40,6 +42,13 @@ label start:
     e "prob some shit like, importing the scene in script to tell it to go fuck itself with another file in another folder instead of script.rpy..."
 
     e "idk, later lol"
-    # This ends the game.
 
+    menu:
+        e "What now?"
+
+        "ze testin zon" :
+            jump zetestinzon
+        
+        "test run":
+            jump test
     return
