@@ -294,12 +294,21 @@ screen navigation():
 
         xpos gui.navigation_xpos
         yalign 0.5
+        yoffset 50
 
         spacing gui.navigation_spacing
 
         if main_menu:
 
-            textbutton _("Start") action Start()
+            imagebutton:
+                # L'action que le bouton fait (démarrer le jeu, sauvegarder, etc.)
+                action Start() 
+                
+                # L'image quand la souris n'est pas dessus
+                idle "Interface/start_idle.png" 
+                
+                # L'image quand la souris est dessus
+                hover "Interface/start_hover.png"
 
         else:
 
@@ -1624,4 +1633,3 @@ style slider_vbox:
 style slider_slider:
     variant "small"
     xsize 900
-    
