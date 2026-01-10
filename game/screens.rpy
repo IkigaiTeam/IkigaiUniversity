@@ -750,6 +750,8 @@ screen preferences():
 
     use game_menu(_("Preferences"), scroll="viewport"):
 
+
+        
         vbox:
 
             hbox:
@@ -823,6 +825,22 @@ screen preferences():
                         textbutton _("Mute All"):
                             action Preference("all mute", "toggle")
                             style "mute_all_button"
+
+
+    
+        vbox:
+            style_prefix "radio"
+            textbutton _("Speech Pauses") action ToggleField(persistent,"speech_pauses")
+            
+            showif persistent.speech_pauses:
+                vbox at expander:
+                    style_prefix "slider"
+                    label _("Commas")
+                    text "Time to wait between commas."
+                    bar value FieldValue(persistent, "speech_pause_comma", step=.05, style=u'slider', min=0.05, max=1.0)
+                    label _("Sentences")
+                    text "Time to wait between periods."
+                    bar value FieldValue(persistent, "speech_pause_period", step=.05, style=u'slider', min=0.1, max=2.0)
 
 
 style pref_label is gui_label
