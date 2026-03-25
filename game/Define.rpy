@@ -1,6 +1,7 @@
 
 # Backgrounds (as png images)
 image bg Hallway = "images/Backgrounds/Hallway.png" # Imported as "scene bg Hallway"
+image bg Hallway Sunset = "images/Backgrounds/DormHallwaySunset.png"
 image bg white = "images/Backgrounds/flashbang.png" # Imported as "scene bg white", its the thing right after the splash screen
 
 image bg Bedroom = "images/Backgrounds/ARBEDROOM.png" # Imported as "Bedroom", it's Andee's and Reo's bedroom lol
@@ -12,3 +13,40 @@ image bg haddiesoffice = "images/backgrounds/HaddiesOffice.png" #imported as had
 image bg void = "images/backgrounds/void.png" # void.like
 image bg Campus Outside = "images/Backgrounds/CampusOutside.png" #imported as Campus Outside, bitch we outsideee
 image bg Livingroom = "images/Backgrounds/ARLIVINGROOM.png" #imported as ARLIVINGROOM, home sweet home
+image bg Stairs = "images/Backgrounds/Stairs.png"
+image Malevolent = "images/Splash/Malevolent.png"
+image Team Ikigai = "images/Splash/TeamIkigai.png"
+image Disclaimer = "images/Splash/Disclaimer.png"
+image Warning = "images/Splash/Warning.png"
+image bg CampusDoorsInside = "images/Backgrounds/insidecampusdoors.png"
+image bg Classhall2 = "images/Backgrounds/Classhall2.png"
+image bg Classroom Hall = "images/Backgrounds/Classroom Hall.png"
+image bg back classroom = "images/Backgrounds/backclassroom.png"
+image bg front classroom = "images/Backgrounds/frontclassroom.png"
+image bg Library = "images/Backgrounds/Library.png"
+image bg bedroom night = "images/Backgrounds/BEDROOMNIGHT.png"
+image bg livingroom night = "images/Backgrounds/ARLIVINGROOMNIGHT.png"
+image bg livingroom sunset = "images/Backgrounds/ARLIVINGROOMSUNSET.png"
+image bg dormhallway night = "images/Backgrounds/DormHallwayNight.png"
+image bg Beach = "images/Backgrounds/Beach (Day).webp"
+image bg Beach Sunset = "images/Backgrounds/Beach Sunset.webp"
+image bg Beach Night = "images/Backgrounds/Beach Night.webp"
+image bg dormhallway sunset = "images/Backgrounds/DormHallwaySunset.png"
+image bg gym = "images/Backgrounds/Campus Gym.png"
+image bg myikigai = "images/Backgrounds/My Ikigai.png"
+image bg dockscafe = "images/Backgrounds/DocksCafe.png"
+image bg dockscafe sunset = "images/Backgrounds/Docks Cafe Sunset.jpg"
+image bg DetectivesOffice = "images/Backgrounds/DetectivesOffice.png"
+image bg cafeteria = "images/Backgrounds/Cafeteria.png"
+image bg library shelves = "images/Backgrounds/library shelves.png"
+image bg Study Corner = "images/Backgrounds/Study Corner.png"
+
+image Reo Neutral ="images/Characters/Reo Neutral.png"
+image Andreas Neutral = "images/Characters/Andreas Neutral.png"
+image Ax Neutral = "images/Characters/Ax Neutral.png"
+image Calvin Neutral = "images/Characters/Calvin Neutral.png"
+image Dock Neutral = "images/Characters/Dock Neutral.png"
+image Esha Neutral = "images/Characters/Esha Neutral.png"
+image Hiro Neutral = "images/Characters/Hiro Neutral.png"
+image Tony Neutral = "images/Characters/Tony Neutral.png"
+image Tyson Neutral = "images/Characters/Tyson Neutral.png"

@@ -19,7 +19,7 @@ label start:
     # This shows a character sprite. A placeholder is used, but you can
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
-
+    stop music fadeout 1.0
     show eileen happy
     show Andreas ph
 

@@ -27,10 +27,13 @@ style gui_text:
 
 style button:
     properties gui.button_properties("button")
+    activate_sound "audio/sfx/MenuConfirm.wav"
+    hover_sound "audio/sfx/MenuHover.mp3"
 
 style button_text is gui_text:
     properties gui.text_properties("button")
     yalign 0.5
+    
 
 
 style label_text is gui_text:
@@ -291,24 +294,18 @@ screen navigation():
 
     vbox:
         style_prefix "navigation"
-
-        xpos gui.navigation_xpos
-        yalign 0.5
+        
+        xalign 0.93
+        xoffset 60
+        
+        yalign 0.7
         yoffset 50
 
         spacing gui.navigation_spacing
 
         if main_menu:
 
-            imagebutton:
-                # L'action que le bouton fait (démarrer le jeu, sauvegarder, etc.)
-                action Start() 
-                
-                # L'image quand la souris n'est pas dessus
-                idle "Interface/start_idle.png" 
-                
-                # L'image quand la souris est dessus
-                hover "Interface/start_hover.png"
+            textbutton _("Start") action Start() 
 
         else:
 
@@ -351,6 +348,7 @@ style navigation_button:
 
 style navigation_button_text:
     properties gui.text_properties("navigation_button")
+    xalign 1.0
 
 
 ## Main Menu screen ############################################################
@@ -387,7 +385,7 @@ screen main_menu():
 
             text "[config.version]":
                 style "main_menu_version"
-    add "gui/thelinesssssss.png" xpos 0 ypos 0 #lower on top of everyting that's before
+    
 
 
 style main_menu_frame is empty
@@ -400,7 +398,7 @@ style main_menu_frame:
     xsize 420
     yfill True
 
-    background "gui/overlay/main_menu.png"
+    # background "gui/overlay/main_menu.png"
 
 style main_menu_vbox:
     xalign 1.0
